@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cars-front
+  annotations:
+    prometheus.io/scrape: 'true'
+    prometheus.io/port: '5173'
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: carsFront
+  template:
+    metadata:
+      labels:
+        app: carsFront
+    spec:
+      containers:
+        - name: cars-image
+          image: welidwg/cars-image:latest 
+          ports:
+            - containerPort: 5173  
