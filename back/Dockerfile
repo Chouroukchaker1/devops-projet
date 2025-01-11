@@ -1,13 +1,18 @@
-FROM node:18
+FROM node:20-slim
 
 WORKDIR /usr/src/app
 
+# Copy package files
 COPY package*.json ./
 
+# Install dependencies
 RUN npm install
 
+# Copy the rest of the application
 COPY . .
 
-EXPOSE 8899
+# Expose the port
+EXPOSE 4000
 
-CMD ["node","server.js"]:
+# Override the start command to use node directly instead of nodemon
+CMD ["npm", "start"]

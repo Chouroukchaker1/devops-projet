@@ -1,15 +1,13 @@
-FROM node:18
+FROM node:lts-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /src
 
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
 RUN npm install
 
-COPY . .
-
-RUN npm run build
+COPY . ./
 
 EXPOSE 5173
 
-CMD ["npm","run","dev"]:
+CMD ["npm", "run", "dev", "--", "--host"]

@@ -1,0 +1,39 @@
+services:
+  api:
+    image: node:18
+    container_name: backend-app
+    working_dir: /app
+    command: npm start
+    ports:
+      - "4000:4000"
+    volumes:
+      - "./back/:/app"
+    environment:
+      - MONGODB_URI=mongodb://bouhmid:bouhmid@mongo:27017
+    depends_on:
+      - mongo
+
+  web:
+    build:
+      context: ./app 
+    container_name: frontend-app
+    ports:
+      - "5173:5173"
+    volumes:
+      - "./app/:/src"
+      - /src/node_modules  
+
+  mongo:
+    image: mongo
+    restart: always
+    container_name: mongo-app
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: bouhmid
+      MONGO_INITDB_ROOT_PASSWORD: bouhmid
+    ports:
+      - "27017:27017" 
+    volumes:
+      - db-data:/data/db
+
+volumes:
+  db-data: {}
