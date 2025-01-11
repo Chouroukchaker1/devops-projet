@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cars-front
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: carsFront
+  template:
+    metadata:
+      labels:
+        app: carsFront
+    spec:
+      containers:
+        - name: mern-front
+          image: chouroukchaker/mern-frontend:latest 
+          ports:
+            - containerPort: 5173  
