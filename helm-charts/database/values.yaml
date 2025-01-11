@@ -1,0 +1,29 @@
+replicaCount: 1
+
+image:
+  repository: mysql
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3306  # Default MySQL port
+
+ingress:
+  enabled: false
+
+serviceAccount:
+  create: true
+  name: ""
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80
+
+env:
+  MYSQL_DATABASE: "cars"  # Name of the database to create
+  MYSQL_USER: "root"  # Username for the MySQL instance
+  MYSQL_PASSWORD:   # Password for the user
+

@@ -1,0 +1,31 @@
+replicaCount: 3
+
+image:
+  repository: chouroukchaker/mern-backend:latest
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 4000
+
+env:
+  MYSQL_HOST: "localhost"  
+  MYSQL_PORT: "3306"           
+  MYSQL_USER: "root"           
+  MYSQL_PASSWORD:   
+  MYSQL_DATABASE: "cars"       
+  PORT: "4000"
+
+ingress:
+  enabled: false
+
+serviceAccount:
+  create: true
+  name: ""
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 80
