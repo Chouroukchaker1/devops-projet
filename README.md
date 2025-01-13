@@ -54,7 +54,7 @@ En suivant ces étapes, vous aurez construit, déployé et géré votre applicat
 
 
   
- ![471954156_1162473421980452_6533739628502622506_n](https://github.com/user-attachments/assets/bdbe7bfa-6847-4b35-a220-37b05c0cd9f9)
+  
 ![472388177_2285474485159303_4784391197675149310_n](https://github.com/user-attachments/assets/34455f99-1120-4abe-b1e7-036e3ae13873)
 ![472574248_618183640587354_4845831285894178620_n](https://github.com/user-attachments/assets/62d3e35c-bce5-42e9-a3c6-9b8d0eb56014)
 ![472755357_1998943547239597_7694419257771025300_n](https://github.com/user-attachments/assets/a7e8ed25-b3cd-424c-b9ea-007251725cf0)
