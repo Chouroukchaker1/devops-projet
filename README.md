@@ -1,18 +1,58 @@
-- Prérequis  
-  - Docker  
-  - Kubectl  
-  - Minikube ou Cluster Kubernetes  
-  - Docker Hub  
+ Documentation pour Projet de Réservation de Voitures avec Kubernetes
 
-- Étapes du Projet  
-  - Construire une Image Docker  
-  - Pousser l'Image vers Docker Hub  
-  - Créer des Manifests Kubernetes  
-  - Déployer sur Kubernetes  
-  - Vérifier le Déploiement  
-  - Nettoyer les Ressources  
 
- 
+Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé et configuré les outils suivants :
+
+Docker : Pour créer des images Docker.
+
+Kubectl : Pour interagir avec le cluster Kubernetes.
+
+Docker Hub : Pour héberger les images Docker.
+
+
+Étapes du Projet
+
+1. Construire une Image Docker
+
+Créez une image Docker pour votre application afin de la rendre portable et exécutable dans n'importe quel environnement.
+
+2. Pousser l'Image vers Docker Hub
+
+Hébergez l'image Docker sur Docker Hub pour qu'elle puisse être accédée par Kubernetes ou d'autres services.
+
+3. Intégration Continue avec Jenkins
+
+Configurez un pipeline Jenkins pour automatiser la construction et le déploiement de l'image Docker.
+
+4. Créer des Manifests Kubernetes
+
+Définissez des fichiers de configuration Kubernetes pour décrire le déploiement et les services nécessaires à votre application.
+
+5. Déployer sur Kubernetes
+
+Utilisez les fichiers de configuration pour déployer l'application sur un cluster Kubernetes.
+
+6. Vérifier le Déploiement
+
+Assurez-vous que l'application est correctement déployée en vérifiant les ressources Kubernetes comme les pods et les services.
+
+7. Gestion de Version avec ArgoCD
+
+Utilisez ArgoCD pour gérer le déploiement continu et synchroniser les modifications avec votre cluster Kubernetes.
+
+8. Monitoring avec Grafana
+
+- Installez Grafana pour surveiller les performances de votre application et de votre cluster Kubernetes.
+- Configurez Prometheus comme source de données pour collecter les métriques.
+- Créez des tableaux de bord personnalisés pour visualiser les métriques clés de l'application, comme l'utilisation des ressources et le trafic.
+
+Conclusion
+
+En suivant ces étapes, vous aurez construit, déployé et géré votre application de réservation de voitures dans un environnement Kubernetes en utilisant Docker, Jenkins, ArgoCD et Grafana.
+
+
   
  ![471954156_1162473421980452_6533739628502622506_n](https://github.com/user-attachments/assets/bdbe7bfa-6847-4b35-a220-37b05c0cd9f9)
 ![472388177_2285474485159303_4784391197675149310_n](https://github.com/user-attachments/assets/34455f99-1120-4abe-b1e7-036e3ae13873)
