@@ -52,29 +52,19 @@ Conclusion
 
 En suivant ces étapes, vous aurez construit, déployé et géré votre application de réservation de voitures dans un environnement Kubernetes en utilisant Docker, Jenkins, ArgoCD et Grafana.
 
+![472574248_618183640587354_4845831285894178620_n](https://github.com/user-attachments/assets/0d98f8ee-6834-485b-a9d0-cefd0efefe46)
 
-  
-  
-![472388177_2285474485159303_4784391197675149310_n](https://github.com/user-attachments/assets/34455f99-1120-4abe-b1e7-036e3ae13873)
-![472574248_618183640587354_4845831285894178620_n](https://github.com/user-attachments/assets/62d3e35c-bce5-42e9-a3c6-9b8d0eb56014)
-![472755357_1998943547239597_7694419257771025300_n](https://github.com/user-attachments/assets/a7e8ed25-b3cd-424c-b9ea-007251725cf0)
+  ![472755357_1998943547239597_7694419257771025300_n](https://github.com/user-attachments/assets/700c6107-3edc-4433-b216-487086e05cc6)
 
-![473243829_968738911792221_2699535558578318865_n](https://github.com/user-attachments/assets/e15560e3-1575-48d4-93da-b9d77d7946b6)
+   
+![473014730_1284661032685179_4772563540702980656_n](https://github.com/user-attachments/assets/c6659e42-699f-49b3-accb-fee7791a8909)
 
-![473255513_3557159734576426_3016317373790797097_n](https://github.com/user-attachments/assets/9d1737f8-32fd-469f-b952-8ec2e1a713df)
-
-![472851738_978798570729551_3688589828924207403_n](https://github.com/user-attachments/assets/621eece4-e1be-4a67-b686-50d0d3d685cc)
+ ![472851738_978798570729551_3688589828924207403_n](https://github.com/user-attachments/assets/aa2f6e5b-13db-42d5-b679-27e00e76084e)
+![473050912_950935060464519_3203640302126542776_n](https://github.com/user-attachments/assets/be232dd2-47fe-4259-890c-804cf33d15ab)
+![image](https://github.com/user-attachments/assets/87297985-65c2-45eb-b123-9f78267b207d)
 
 
-![473050912_950935060464519_3203640302126542776_n](https://github.com/user-attachments/assets/3f42e113-d30e-4186-816d-88e88b2b5c15)
+![473058978_537146655452424_6206667026913677060_n](https://github.com/user-attachments/assets/4f8221c6-9034-4585-b4e7-7e90f9f8498f)
+![473243829_968738911792221_2699535558578318865_n](https://github.com/user-attachments/assets/21b118be-4bbd-4775-ae1a-c2fd53eb7426)
 
-
-![473058978_537146655452424_6206667026913677060_n](https://github.com/user-attachments/assets/07ddfc06-4542-4ecc-8faf-e43b4045a59b)
-
-![473014730_1284661032685179_4772563540702980656_n](https://github.com/user-attachments/assets/a34efc56-2ff2-4c63-bc79-4be749b25d60)
-![image](https://github.com/user-attachments/assets/a898b5bb-9cfc-4e93-96e7-436a92b21994)
-![image](https://github.com/user-attachments/assets/b262518c-0947-48cc-9133-e68977e7e0b3)
-
-
-
-
+![473255513_3557159734576426_3016317373790797097_n](https://github.com/user-attachments/assets/0d992aff-88bd-425d-aa99-c426005e7b1e)
